@@ -1,6 +1,6 @@
 [
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Beetle",
         "type": "Cars",
@@ -34,7 +34,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eos",
         "type": "Cars",
@@ -68,7 +68,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "GTI",
         "type": "Cars",
@@ -102,7 +102,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Golf",
         "type": "Cars",
@@ -136,7 +136,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Golf/Rabbit",
         "type": "Cars",
@@ -170,7 +170,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Jetta",
         "type": "Cars",
@@ -204,7 +204,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Jetta/City Jetta",
         "type": "Cars",
@@ -238,7 +238,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Rabbit",
         "type": "Cars",
@@ -272,7 +272,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Rabbit",
         "type": "Cars",
@@ -306,7 +306,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Arteon",
         "type": "Cars",
@@ -340,7 +340,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "CC",
         "type": "Cars",
@@ -374,7 +374,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Passat (Santana)",
         "type": "Cars",
@@ -408,7 +408,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Passat (Santana)/Passat CC",
         "type": "Cars",
@@ -442,7 +442,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Passat (Santana)/Passat CC",
         "type": "Cars",
@@ -476,7 +476,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Phaeton",
         "type": "Cars",
@@ -510,7 +510,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Phaeton",
         "type": "Cars",
@@ -544,7 +544,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Golf/Rabbit/City Golf",
         "type": "Cars",
@@ -578,7 +578,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Golf/Rabbit/Golf City",
         "type": "Cars",
@@ -612,7 +612,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "N/A",
         "type": "Cars",
@@ -646,7 +646,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "N/A",
         "type": "Cars",
@@ -680,7 +680,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "N/A",
         "type": "Cars",
@@ -714,7 +714,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "ID.4",
         "type": "Light Trucks",
@@ -748,7 +748,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Taos",
         "type": "Light Trucks",
@@ -782,7 +782,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Tiguan",
         "type": "Light Trucks",
@@ -816,7 +816,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Tiguan",
         "type": "Light Trucks",
@@ -850,7 +850,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "VW Atlas",
         "type": "Light Trucks",
@@ -884,7 +884,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "VW Atlas",
         "type": "Light Trucks",
@@ -918,7 +918,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Touareg",
         "type": "Light Trucks",
@@ -952,7 +952,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Touareg",
         "type": "Light Trucks",
@@ -986,7 +986,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Routan",
         "type": "Light Trucks",
@@ -1020,7 +1020,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Routan",
         "type": "Light Trucks",
@@ -1054,7 +1054,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eurovan",
         "type": "Light Trucks",
@@ -1088,7 +1088,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eurovan",
         "type": "Light Trucks",
@@ -1122,7 +1122,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eurovan",
         "type": "Light Trucks",
@@ -1156,7 +1156,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eurovan",
         "type": "Light Trucks",
@@ -1190,7 +1190,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eurovan",
         "type": "Light Trucks",
@@ -1224,7 +1224,7 @@
         }
     },
     {
-        "country": "USA",
+        "country": "CAN",
         "make": "VW",
         "model": "Eurovan",
         "type": "Light Trucks",

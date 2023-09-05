@@ -116,6 +116,7 @@ class MarklinesScraper:
             self.driver.get(url)
 
             try:
+                time.sleep(80)
                 # Wait for the table to load
                 element_present = EC.presence_of_element_located((By.XPATH, '//th[@class="aggregate_row_header"]'))
                 WebDriverWait(self.driver, 10).until(element_present)
@@ -130,9 +131,8 @@ class MarklinesScraper:
                     print(f"Getting link({i}) of {len(links)} for country {country}")
                     time.sleep(3)
                     self.scrape_data(link, code)
-                    time.sleep(30)
+                    time.sleep(10)
                     
-                    # Here you can add whatever you want to do on the individual pages
             except Exception as e:
                 print(f"An error occurred during data scraping for {country}: {e}")
                 
@@ -208,7 +208,7 @@ class MarklinesScraper:
 
             # Append a dictionary to the list
             scraped_data.append({
-                "country": "USA",
+                "country": code,
                 "make": make.replace("\n","").replace("\t",""),
                 "model": model.replace("\n","").replace("\t",""),
                 "type": _type.replace("\n","").replace("\t",""),
@@ -217,18 +217,30 @@ class MarklinesScraper:
                 "sales": sales
             })
             
-
-        # Output the scraped data as JSON
-        output_folder = "output_data"  # Change this to your desired output folder
-        make = make.replace("\n","").replace("\t","")
-        country_filename = os.path.join(output_folder, f"{code}/{make}.json")
-        print(f"{code}/{make}.json done successfully!")
-        
-        # Create the folder if it doesn't exist
-        os.makedirs(os.path.dirname(country_filename), exist_ok=True)
-        
-        with open(country_filename, 'w', encoding='utf-8') as outfile:
-            json.dump(scraped_data, outfile, indent=4)
+        try:
+            # Output the scraped data as JSON
+            output_folder = "output_data"  # Change this to your desired output folder
+            make = make.replace("\n","").replace("\t","").replace("\\","").replace("/","-")
+            code = code.replace("\\","").replace("/","-")
+            country_filename = os.path.join(output_folder, f"{code}/{make}.json")
+            
+            # Create the folder if it doesn't exist
+            os.makedirs(os.path.dirname(country_filename), exist_ok=True)
+            
+            # Check if the file already exists, and rename if necessary
+            counter = 1
+            while os.path.exists(country_filename):
+                make_with_counter = f"{make}_{counter}"
+                country_filename = os.path.join(output_folder, f"{code}/{make_with_counter}.json")
+                counter += 1
+            
+            with open(country_filename, 'w', encoding='utf-8') as outfile:
+                json.dump(scraped_data, outfile, indent=4)
+            
+            print(f"{country_filename} done successfully!")
+        except:
+            print(f"{code} {make}.json skipped")
+            pass           
 
 
 if __name__ == '__main__':
